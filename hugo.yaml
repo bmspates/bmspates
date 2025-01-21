@@ -1,0 +1,67 @@
+baseURL: "https://examplesite.com/"
+title: Brian Spates
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: true
+buildFuture: false
+buildExpired: false
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Brian Spates
+  description: "Personal website for Brian Spates"
+  keywords: [Blog, Portfolio, PaperMod]
+  author: Brian Spates
+  # author: ["Me", "You"] # multiple authors
+  images: [""]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowAllPagesInArchive: true
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+  homeInfoParams:
+    Title: Hello there!
+    Content: I'm Brian Spates, a Software Engineer interested in a lot of things. I studied Computer Engineering at the University of Maryland and work at John Hopkins University Applied Physics Laboratory.
+
+  socialIcons: # optional
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/bmspates/"
+    - name: "github"
+      url: "https://github.com/bmspates/"
+    - name: "gitlab"
+      url: "https://gitlab.com/bmspates/"
+
+menu:
+  main:
+    - name: Archive
+      url: archives
+      weight: 5
+    - name: Search
+      url: search/
+      weight: 10
+    - name: Tags
+      url: tags/
+      weight: 10
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
