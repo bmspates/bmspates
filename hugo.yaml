@@ -39,6 +39,8 @@ params:
   profileMode:
     enabled: true
     subtitle: Software Engineer
+    imageUrl: "assets/pages/potrait.jpg"
+    imageTitle: "Picture of Brian Spates"
     buttons:
       - name: About
         url: "/pages/about"
