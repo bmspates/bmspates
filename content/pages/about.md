@@ -1,6 +1,5 @@
 ---
-title: "Hello World"
-date: 2025-01-21T00:31:00-05:00
+title: "About"
 # weight: 1k
 # aliases: ["/first"]
 tags: [""]
@@ -8,19 +7,21 @@ author: "Brian Spates"
 # author: ["Me", "You"] # multiple authors
 showToc: false
 TocOpen: false
-draft: true
-hidemeta: false
+draft: false
+showdate: false
+showtags: false
+hidemeta: true
 comments: false
 disableHLJS: true # to disable highlightjs
-disableShare: false
+disableShare: true
 disableHLJS: false
 hideSummary: false
-searchHidden: false
-ShowReadingTime: true
+searchHidden: true
+ShowReadingTime: false
 ShowBreadCrumbs: true
-ShowPostNavLinks: true
-ShowWordCount: true
+ShowPostNavLinks: false
+ShowWordCount: false
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 ---
-Hello, World!
+Test Page, Please Ignore

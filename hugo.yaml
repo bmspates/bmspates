@@ -48,8 +48,14 @@ params:
     - name: "gitlab"
       url: "https://gitlab.com/bmspates/"
 
+  mainsections:
+    - posts
+
 menu:
   main:
+    - name: About
+      url: pages/about/
+      weight: 5
     - name: Archive
       url: archives
       weight: 5
