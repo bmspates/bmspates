@@ -24,4 +24,4 @@ ShowWordCount: false
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 ---
-Test Page, Please Ignore
+Welcome to my website! I plan to use this site as a resume, project showcase, blog, and whatever else seems interesting to me.
