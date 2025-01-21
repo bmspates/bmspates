@@ -36,9 +36,14 @@ params:
   hideSummary: false
   showtoc: false
   tocopen: false
-  homeInfoParams:
-    Title: Hello there!
-    Content: I'm Brian Spates, a Software Engineer interested in a lot of things. I studied Computer Engineering at the University of Maryland and work at John Hopkins University Applied Physics Laboratory.
+  profileMode:
+    enabled: true
+    subtitle: Software Engineer
+    buttons:
+      - name: About
+        url: "/pages/about"
+      - name: Posts
+        url: "/posts"
 
   socialIcons: # optional
     - name: "linkedin"
@@ -56,8 +61,8 @@ menu:
     - name: About
       url: pages/about/
       weight: 5
-    - name: Archive
-      url: archives
+    - name: Posts
+      url: posts
       weight: 5
     - name: Search
       url: search/

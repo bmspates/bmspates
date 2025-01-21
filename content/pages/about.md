@@ -24,4 +24,11 @@ ShowWordCount: false
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 ---
-Welcome to my website! I plan to use this site as a resume, project showcase, blog, and whatever else seems interesting to me.
+Hello there! I'm Brian Spates, a software engineer, systems integrator, self-hoster, and open-source lover. 
+
+Technical areas of interest:
+* Programming Languages: 
+* DevOps & System Administration:
+* Other: 
+
+Feel free to check out my website and whatever I've decided to write about!
