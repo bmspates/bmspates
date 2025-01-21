@@ -27,8 +27,8 @@ UseHugoToc: true
 Hello there! I'm Brian Spates, a software engineer, systems integrator, self-hoster, and open-source lover. 
 
 Technical areas of interest:
-* Programming Languages: 
-* DevOps & System Administration:
-* Other: 
+* Programming Languages: Rust, C/C++, Python, Java, Racket
+* DevOps & System Administration: Containerization (primarily Podman), Ansible, Linux
+* Other: Functional Programming, Compilers, Shell Scripting (sh, bash, csh)
 
 Feel free to check out my website and whatever I've decided to write about!
